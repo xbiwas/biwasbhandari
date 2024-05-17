@@ -10,6 +10,15 @@ export const Contact = () => {
     address: "Kathmandu, Nepal",
   });
 
+  const [formState, setFormState] = useState({
+    conName: "",
+    conLName: "",
+    conEmail: "",
+    conPhone: "",
+    conService: "",
+    conMessage: "",
+  });
+
   useEffect(() => {
     // Simulate fetching data
     const fetchContactInfo = async () => {
@@ -29,6 +38,14 @@ export const Contact = () => {
 
     fetchContactInfo();
   }, []);
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormState({
+      ...formState,
+      [name]: value,
+    });
+  };
 
   return (
     <>
@@ -52,6 +69,8 @@ export const Contact = () => {
                       name="conName"
                       id="conName"
                       placeholder="First name"
+                      value={formState.conName}
+                      onChange={handleInputChange}
                     />
                   </div>
                   <div className="form_group">
@@ -60,6 +79,8 @@ export const Contact = () => {
                       name="conLName"
                       id="conLName"
                       placeholder="Last name"
+                      value={formState.conLName}
+                      onChange={handleInputChange}
                     />
                   </div>
                 </div>
@@ -70,6 +91,8 @@ export const Contact = () => {
                       name="conEmail"
                       id="conEmail"
                       placeholder="Email address"
+                      value={formState.conEmail}
+                      onChange={handleInputChange}
                     />
                   </div>
                   <div className="form_group">
@@ -78,6 +101,8 @@ export const Contact = () => {
                       name="conPhone"
                       id="conPhone"
                       placeholder="Phone number"
+                      value={formState.conPhone}
+                      onChange={handleInputChange}
                     />
                   </div>
                 </div>
@@ -86,11 +111,13 @@ export const Contact = () => {
                     name="conService"
                     id="conService"
                     className="tj-nice-select"
+                    value={formState.conService}
+                    onChange={handleInputChange}
                   >
-                    <option value="" selected disabled>
+                    <option value="" disabled>
                       Choose Service
                     </option>
-                    <option value="braning">Branding Design</option>
+                    <option value="branding">Branding Design</option>
                     <option value="web">Web Design</option>
                     <option value="uxui">UI/UX Design</option>
                     <option value="app">App Design</option>
@@ -101,6 +128,8 @@ export const Contact = () => {
                     name="conMessage"
                     id="conMessage"
                     placeholder="Message"
+                    value={formState.conMessage}
+                    onChange={handleInputChange}
                   ></textarea>
                 </div>
                 <div className="form_btn">
@@ -112,7 +141,7 @@ export const Contact = () => {
             </div>
           </div>
 
-          <div className="contact-info-list  w-half">
+          <div className="contact-info-list w-half">
             <ul className="ul-reset">
               <li>
                 <div className="icon-box">

@@ -1,12 +1,14 @@
 export const linklist = [
-  { id: 0, text: "Home", link: "/" },
-  { id: 1, text: "Services", link: "/service" },
-  { id: 2, text: "Works", link: "/work" },
-  { id: 3, text: "Resume", link: "/resume" },
-  // { id: 4, text: "Skills", link: "/skill" },
-  // { id: 5, text: "Testimonials", link: "/testimonials" },
-  // { id: 6, text: "Contact", link: "/contact" },
+  { id: 1, link: "hero", text: "Home" },
+  { id: 2, link: "service", text: "Services" },
+  { id: 3, link: "portfolio", text: "Portfolio" },
+  // { id: 4, link: "resume", text: "Resume" },
+  // { id: 5, link: "skill", text: "Skills" },
+  // { id: 6, link: "testimonial", text: "Testimonials" },
+  // { id: 7, link: "blog", text: "Blog" },
+  // { id: 8, link: "contact", text: "Contact" },
 ];
+
 export const hero = [
   {
     id: 1,

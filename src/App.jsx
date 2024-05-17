@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Home, Layout } from "./utils/Router";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   const [showLoader, setShowLoader] = useState(true);
@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowLoader(false);
-    }, 5000);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -43,7 +43,7 @@ function App() {
 
       {!showLoader && (
         <>
-          <BrowserRouter>
+          <HashRouter>
             <Routes>
               <Route
                 path="/"
@@ -54,7 +54,7 @@ function App() {
                 }
               />
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
         </>
       )}
     </>

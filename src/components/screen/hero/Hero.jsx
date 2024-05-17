@@ -1,7 +1,7 @@
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
-import { hero } from "../../assets/data/data";
+import { hero } from "../../../assets/data/data";
 
 export const Hero = () => {
   const socialIcons = [

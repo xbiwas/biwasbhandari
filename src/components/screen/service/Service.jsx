@@ -1,4 +1,4 @@
-import { service } from "../../assets/data/data";
+import { service } from "../../../assets/data/data";
 import { GoArrowUpRight } from "react-icons/go";
 // import { GoArrowUpLeft } from "react-icons/go";
 
@@ -10,7 +10,8 @@ export const Service = () => {
           <div className="section-header text-center">
             <h2 className="section-title wow fadeInUp">My Quality Services</h2>
             <p className=" wow fadeInUp" data-wow-delay=".4s">
-              We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.
+              We put your ideas and thus your wishes in the form of a unique web
+              project that inspires you and you customers.
             </p>
           </div>
 

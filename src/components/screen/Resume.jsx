@@ -1,4 +1,4 @@
-import { educationData, experienceData } from "../assets/data/data";
+import { educationData, experienceData } from "../../assets/data/data";
 import { CiMedal } from "react-icons/ci";
 import { PiGraduationCap } from "react-icons/pi";
 

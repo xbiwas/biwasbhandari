@@ -1,5 +1,5 @@
 // import { NavLink } from "react-router-dom";
-import { projects } from "../../assets/data/data";
+import { projects } from "../../../assets/data/data";
 import { GoArrowUpRight } from "react-icons/go";
 
 export const Portfolio = () => {

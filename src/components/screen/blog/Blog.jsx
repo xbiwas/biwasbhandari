@@ -1,4 +1,4 @@
-import { blogs } from "../../assets/data/data";
+import { blogs } from "../../../assets/data/data";
 import { CiCalendar } from "react-icons/ci";
 import { FaRegComments } from "react-icons/fa";
 
@@ -9,7 +9,10 @@ export const Blog = () => {
         <div className="container">
           <div className="section-header text">
             <h2 className="section-title">Recent Blogs</h2>
-            <p>We put your ideas and thus your wishes in the form of a unique web project that inspires you and your customers.</p>
+            <p>
+              We put your ideas and thus your wishes in the form of a unique web
+              project that inspires you and your customers.
+            </p>
           </div>
           <div className="grid4">
             {blogs.map((blog) => (

@@ -132,7 +132,7 @@ export const Header = () => {
         <div className="container flexSB">
           <div className="logo-box">
             <NavLink to="/">
-              <img src="../images/common/logo.png" alt="logo" />
+              <img src="./images/common/logo.png" alt="logo" />
             </NavLink>
           </div>
 

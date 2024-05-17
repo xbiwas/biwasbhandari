@@ -7,7 +7,7 @@ export const Footer = () => {
         <div className="container text-center">
           <div className="logo-box">
             <a href="/">
-              <img src="../images/common/logo.png" alt="logo" />
+              <img src="./images/common/logo.png" alt="logo" />
             </a>
           </div>
           <div className="footer-menu">

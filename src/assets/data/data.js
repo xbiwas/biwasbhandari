@@ -48,35 +48,35 @@ export const projects = [
     title: "Jholpattey | Restaurant Landing Page",
     href: "https://www.jholpattey.com.np/",
     desc: "A landing page for Jholpattey resturant located in baneshowr with clean UI/UX.",
-    cover: "../images/portfolio/p1.png",
+    cover: "./images/portfolio/p1.png",
   },
   {
     id: 2,
     title: "Ordinal Scan | Web3 App",
     href: "https://ordinalscan.netlify.app/",
     desc: "A tool to analyze ordinal(bitcoin asset) return.",
-    cover: "../images/portfolio/p2.png",
+    cover: "./images/portfolio/p2.png",
   },
   {
     id: 3,
     href: "https://unparalleld.vercel.app/",
     title: "UNPARALLELD | Clothing Store",
     desc: "Clothing store integrating sanity CMS and stripe.",
-    cover: "../images/portfolio/p3.png",
+    cover: "./images/portfolio/p3.png",
   },
   {
     id: 4,
     title: "Eventhub | An event organizing platform",
     href: "https://eventhubnp.vercel.app/",
     desc: "A fullstack event organizing platform that lets you host your own events or program and join the program through online ticketing using stripe payment.",
-    cover: "../images/portfolio/p4.png",
+    cover: "./images/portfolio/p4.png",
   },
   {
     id: 5,
     title: "EduHacks | Story to blog",
     href: "https://eduhacks.vercel.app/",
     desc: "A platform where you can share your stories in the form of blog.",
-    cover: "../images/portfolio/p5.png",
+    cover: "./images/portfolio/p5.png",
   },
 ];
 
@@ -135,10 +135,10 @@ export const educationData = [
 ];
 
 export const skillsData = [
-  { id: 1, name: "Figma", percentage: 60, icon: "../images/skill/s1.svg" },
-  { id: 3, name: "XD", percentage: 60, icon: "../images/skill/s3.svg" },
-  { id: 5, name: "React", percentage: 85, icon: "../images/skill/s5.svg" },
-  { id: 6, name: "JavaScript", percentage: 90, icon: "../images/skill/s6.svg" },
+  { id: 1, name: "Figma", percentage: 60, icon: "./images/skill/s1.svg" },
+  { id: 3, name: "XD", percentage: 60, icon: "./images/skill/s3.svg" },
+  { id: 5, name: "React", percentage: 85, icon: "./images/skill/s5.svg" },
+  { id: 6, name: "JavaScript", percentage: 90, icon: "./images/skill/s6.svg" },
 ];
 export const testimonialData = [
   {
@@ -167,7 +167,7 @@ export const testimonialData = [
 export const blogs = [
   {
     id: 1,
-    image: "../images/blog/b1.jpg",
+    image: "./images/blog/b1.jpg",
     category: "Tutorial",
     date: "Oct 01, 2022",
     commentCount: 0,
@@ -175,7 +175,7 @@ export const blogs = [
   },
   {
     id: 2,
-    image: "../images/blog/b2.jpg",
+    image: "./images/blog/b2.jpg",
     category: "TIPS",
     date: "Nov 01, 2022",
     commentCount: 0,
@@ -183,7 +183,7 @@ export const blogs = [
   },
   {
     id: 3,
-    image: "../images/blog/b3.jpg",
+    image: "./images/blog/b3.jpg",
     category: "FREEBIES",
     date: "Dec 01, 2022",
     commentCount: 0,
@@ -191,7 +191,7 @@ export const blogs = [
   },
   {
     id: 4,
-    image: "../images/blog/b4.jpg",
+    image: "./images/blog/b4.jpg",
     category: "Tutorial",
     date: "Jan 01, 2023",
     commentCount: 0,
@@ -199,7 +199,7 @@ export const blogs = [
   },
   {
     id: 5,
-    image: "../images/blog/b5.png",
+    image: "./images/blog/b5.png",
     category: "TIPS",
     date: "Feb 01, 2023",
     commentCount: 0,
@@ -207,7 +207,7 @@ export const blogs = [
   },
   {
     id: 6,
-    image: "../images/blog/b6.jpg",
+    image: "./images/blog/b6.jpg",
     category: "FREEBIES",
     date: "Mar 01, 2023",
     commentCount: 0,
@@ -215,7 +215,7 @@ export const blogs = [
   },
   {
     id: 7,
-    image: "../images/blog/b7.jpg",
+    image: "./images/blog/b7.jpg",
     category: "TIPS",
     date: "Apr 01, 2023",
     commentCount: 0,
@@ -223,7 +223,7 @@ export const blogs = [
   },
   {
     id: 8,
-    image: "../images/blog/b8.jpg",
+    image: "./images/blog/b8.jpg",
     category: "Tutorial",
     date: "May 01, 2023",
     commentCount: 0,

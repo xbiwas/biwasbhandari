@@ -73,7 +73,7 @@ export const Hero = () => {
             </div>
             <div className="right w-half">
               <div className="hero-image-box text-center">
-                <img src="../images/common/me.png" alt="logo" />
+                <img src="./images/common/me.png" alt="logo" />
               </div>
             </div>
           </div>
